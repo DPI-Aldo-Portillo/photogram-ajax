@@ -1,0 +1,2 @@
+console.log("bye like!")
+$("#<%= dom_id(@like) %>").replaceWith("<%= j(render "likes/form", like: @like) %>");

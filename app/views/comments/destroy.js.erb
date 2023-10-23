@@ -1,0 +1,4 @@
+console.log("BYE")
+$("#<%= dom_id(@comment) %>").fadeOut(300, function() {
+  $(this).remove();
+});
